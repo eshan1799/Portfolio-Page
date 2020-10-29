@@ -1,4 +1,4 @@
-# React Boilerplate w/Test Suite
+# Eshan Chatwal Portfolio
 
 ## Run Instructions
 
