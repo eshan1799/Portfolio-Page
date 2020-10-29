@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, withRouter } from 'react-router-dom'
+import { NavLink, Link, withRouter } from 'react-router-dom'
 
 const Error404 = history => {
     return (
@@ -7,11 +7,8 @@ const Error404 = history => {
             <nav>
                 <NavLink to='/'>Home</NavLink>
             </nav>
-        <p>Oops!</p>
-        <section className="goToHome">
-            <div>
                 <h1>
-                    Oops!
+                    {/* Oops! */}
                 </h1>
                 <h3>
                     We can't seem to find the page you're looking for.
@@ -19,11 +16,9 @@ const Error404 = history => {
                 <p>
                     Error Code: 404
                 </p>
-            </div>
-            <NavLink to="/">
+            <Link to="/">
                 <button>Go to homepage</button>
-            </NavLink>
-        </section>
+            </Link>
         </div>
     )
 }
