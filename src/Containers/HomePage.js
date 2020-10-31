@@ -6,6 +6,12 @@ class HomePage extends React.Component {
         return (
             <div>
                 <h1>Eshan Chatwal</h1>
+                <Link to='#about'>
+                    About
+                </Link>
+                <a href='#about'>About a</a>
+                <section className='fullPage'></section>
+                <p id='about'>About Me</p>
             </div>
         )
     }
