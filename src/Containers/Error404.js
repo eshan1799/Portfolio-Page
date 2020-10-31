@@ -8,7 +8,7 @@ const Error404 = history => {
                 <NavLink to='/'>Home</NavLink>
             </nav>
                 <h1>
-                    {/* Oops! */}
+                    Oops!
                 </h1>
                 <h3>
                     We can't seem to find the page you're looking for.
