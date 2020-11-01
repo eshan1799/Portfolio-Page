@@ -8,3 +8,34 @@
   height: 100vh;
   width: 100vw;
 }
+
+.scrollspy {
+  background-color: #515151;
+  margin: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 10px;
+  padding: 10px 0;
+}
+
+a {
+  color: white;
+}
+
+.isCurrent {
+  font-weight: bold;
+}
+
+.isCurrent a, h2 {
+  color: #f1a07a;
+}
+
+a:hover { color: white; opacity: 50%; }
