@@ -7,36 +7,37 @@ class SideNav extends React.Component {
     render() {
         return (
             <>
-            <Scrollspy 
-                        className="diamondsNav"
-                        items={ ['top', 'about', 'skills', 'projects', 'contact'] } 
-                        currentClassName="isCurrent">
-                            <li>
-                                <AnchorLink href="#top">
-                                    <Diamond />
-                                </AnchorLink>
-                            </li>
-                            <li>
-                                <AnchorLink href="#about">
-                                    <Diamond />
-                                </AnchorLink>
-                            </li>
-                            <li>
-                                <AnchorLink href="#skills">
-                                    <Diamond />
-                                </AnchorLink>
-                            </li>
-                            <li>
-                                <AnchorLink href="#projects">
-                                    <Diamond />
-                                </AnchorLink>
-                            </li>
-                            <li>
-                                <AnchorLink href="#contact">
-                                    <Diamond />
-                                </AnchorLink>
-                            </li>
-                        </Scrollspy>
+                <Scrollspy 
+                className="diamondsNav"
+                items={ ['topNav', 'about', 'skills', 'projects', 'contact'] } 
+                currentClassName="isCurrent"
+                >
+                    <li>
+                        <AnchorLink href="#topNav">
+                            <Diamond />
+                        </AnchorLink>
+                    </li>
+                    <li>
+                        <AnchorLink href="#about">
+                            <Diamond />
+                        </AnchorLink>
+                    </li>
+                    <li>
+                        <AnchorLink href="#skills">
+                            <Diamond />
+                        </AnchorLink>
+                    </li>
+                    <li>
+                        <AnchorLink href="#projects">
+                            <Diamond />
+                        </AnchorLink>
+                    </li>
+                    <li>
+                        <AnchorLink href="#contact">
+                            <Diamond />
+                        </AnchorLink>
+                    </li>
+                </Scrollspy>
             </>
         )
     }
