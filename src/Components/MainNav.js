@@ -1,5 +1,5 @@
 import React from "react";
-import Scrollspy from 'react-scrollspy';
+// import Scrollspy from 'react-scrollspy';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Nav, Navbar } from "react-bootstrap";
 
@@ -7,13 +7,16 @@ class MainNav extends React.Component {
     render() {
         return (
             <>
-            <Navbar id="navbar" fixed="top">
-                    <Scrollspy 
+            <Navbar
+                id="topNav"
+                // fixed="top"
+            >
+                    {/* <Scrollspy 
                     className="navFlex"
                     items={ ['top', 'about', 'skills', 'projects', 'contact'] } 
-                    currentClassName="isCurrent">
+                    currentClassName="isCurrent"> */}
                 <Navbar.Brand>
-                    <AnchorLink className="anchor" href="#top">
+                    <AnchorLink id="logo" href="#topNav">
                         EC
                     </AnchorLink>
                 </Navbar.Brand>
@@ -37,7 +40,7 @@ class MainNav extends React.Component {
                             Contact
                         </AnchorLink>
                     </Nav.Link>
-                </Scrollspy>
+                {/* </Scrollspy> */}
             </Navbar>
             </>
         )
