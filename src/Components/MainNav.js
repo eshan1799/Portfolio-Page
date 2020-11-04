@@ -17,7 +17,7 @@ class MainNav extends React.Component {
                         EC
                     </AnchorLink>
                 </Navbar.Brand>
-                    <Nav.Link id="mid" className="navlinks">
+                    <Nav.Link bg="transparent"  id="mid" className="navlinks">
                         <AnchorLink href="#about">
                             About
                         </AnchorLink>
