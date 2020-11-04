@@ -2,19 +2,52 @@
 * {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  background-color: darkgrey;
+  padding: 0;
+  background-attachment: fixed;
+}
+
+#navbar {
+  position: sticky;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2.5%;
+}
+
+.navFlex {
+  display: flex;
+  flex-direction: row;
+}
+
+.navlinks {
+  margin-right: 7%;
+}
+
+/* .anchorSpace {
+  height: 15%;
+} */
+
+#pageFlex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.widthFiller {
+  padding-left: 30%;
 }
 
 .fullPage {
   height: 100vh;
-  width: 100vw;
 }
 
-.scrollspy {
-  background-color: #515151;
-  margin: 10px;
+.diamondsNav {
   position: fixed;
-  top: 0;
-  right: 0;
+  left: 40px;
+  z-index: 10;
+  top: 50%;
+  margin-top: -80px;
 }
 
 ul {
@@ -22,12 +55,17 @@ ul {
 }
 
 li {
-  margin: 10px;
-  padding: 10px 0;
+  padding: 4px 0px;
 }
 
 a {
-  color: white;
+  color: #43464B;
+}
+
+a:hover {
+  color:#43464B;
+  opacity: 60%;
+  text-decoration: none;
 }
 
 .isCurrent {
@@ -38,4 +76,13 @@ a {
   color: #f1a07a;
 }
 
-a:hover { color: white; opacity: 50%; }
+.anchorSpace {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
+#mid {
+  padding-left: 300px;
+}
