@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+:root {
+  --grey: #43464B;
+  --orange: #f1a07a;
+}
+
 * {
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  background-color: darkgrey;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
   padding: 0;
   background-attachment: fixed;
 }
@@ -44,11 +51,10 @@ li {
 }
 
 a {
-  color: #43464B;
+  color: var(--grey);
 }
 
 a:hover {
-  color:#43464B;
   opacity: 60%;
   text-decoration: none;
 }
@@ -58,9 +64,22 @@ a:hover {
 }
 
 .isCurrent a, h2 {
-  color: #f1a07a;
+  color: var(--orange);
 }
 
 #mid {
   padding-left: 300px;
+}
+
+.img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#half {
+  height: 30%;
+}
+
+h1 {
+  font-size: 400%;
 }
