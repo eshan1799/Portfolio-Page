@@ -5,7 +5,7 @@ class About extends React.Component {
         return (
             <section
             id="about"
-            className="fullPage"
+            className="fullPageFlex"
             >
                 <div
                 className="anchorSpace">

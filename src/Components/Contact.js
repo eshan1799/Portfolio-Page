@@ -5,7 +5,7 @@ class Contact extends React.Component {
         return (
             <section
                 id="contact"
-                className="fullPage"
+                className="fullPageFlex"
             >
                 <div
                     className="anchorSpace">

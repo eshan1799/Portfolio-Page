@@ -5,7 +5,7 @@ class Skills extends React.Component {
         return (
             <section
                 id="skills"
-                className="fullPage"
+                className="fullPageFlex"
             >
                 <div
                     className="anchorSpace">

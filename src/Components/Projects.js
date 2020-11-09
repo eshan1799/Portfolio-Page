@@ -5,7 +5,7 @@ class Projects extends React.Component {
         return (
             <section
                 id="projects"
-                className="fullPage"
+                className="fullPageFlex"
             >
                 <div
                     className="anchorSpace">
