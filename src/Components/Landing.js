@@ -1,30 +1,24 @@
-import React, { cloneElement } from "react";
-import { Container, Row, Col } from 'react-bootstrap';
+import React from "react";
 
 class Landing extends React.Component {
     render() {
         return (
             <section
-                className="fullPage"
+            id="landingFullPage"
             >
-                <Container>
-                <Row>
-                    <Col className="img">
-                        <img src="../img/me.png" />
-                    </Col>
-                    <Col>
-                        <Col id='half'></Col>
-                        <Col>
-                        <h1>
-                            Eshan Chatwal
-                        </h1>
-                        <p>
-                            Full Stack Developer
-                        </p>
-                        </Col>
-                    </Col>
-                </Row>
-            </Container>
+            <section 
+            id="centreFlex"
+            >
+                <img id="image" src="../img/me.png" />
+                <div id="nameAndRole">
+                    <h1>
+                        Eshan Chatwal
+                    </h1>
+                    <p id="role">
+                        Full Stack Developer
+                    </p>
+                </div>
+            </section>
             </section>
         )
     }
