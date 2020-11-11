@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Nav, Navbar } from "react-bootstrap";
 
@@ -8,17 +9,21 @@ class MainNav extends React.Component {
             <>
             <Navbar
                 id="topNav"
+                collapseOnSelect expand="md"
             >
                 <Navbar.Brand>
-                    <AnchorLink id="logo" href="#topNav">
+                    <a id="logo" href="http://localhost:8000/">
                         EC
-                    </AnchorLink>
+                    </a>
                 </Navbar.Brand>
-                    <Nav.Link bg="transparent"  id="mid" className="navlinks">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
+                    <Nav.Link bg="transparent" className="navlinks">
                         <AnchorLink href="#about">
                             About
                         </AnchorLink>
                     </Nav.Link>
+
                     <Nav.Link className="navlinks">
                         <AnchorLink href="#skills">
                             Skills
@@ -34,6 +39,7 @@ class MainNav extends React.Component {
                             Contact
                         </AnchorLink>
                     </Nav.Link>
+                    </Navbar.Collapse>
             </Navbar>
             </>
         )
