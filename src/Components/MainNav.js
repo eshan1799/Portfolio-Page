@@ -38,7 +38,7 @@ class MainNav extends React.Component {
                             Contact
                         </AnchorLink>
                     </Nav.Link>
-                    </Navbar.Collapse>
+                </Navbar.Collapse>
             </Navbar>
             </>
         )
