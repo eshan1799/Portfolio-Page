@@ -93,7 +93,10 @@ ul { list-style: none; }
 
 li { padding: 4px 0px; }
 
-a { color: var(--grey); }
+a {
+  color: var(--grey);
+  transition: color .2s ease;
+}
 
 a:hover {
   opacity: 60%;
