@@ -21,14 +21,8 @@
   padding-left: 2.5%;
 }
 
-#topNav:hover {
-  cursor: pointer;
-  color: var(--orange);
-  opacity: 100%;
-}
-
 .navlinks {
-  margin-right: 7%;
+  margin-right: 8%;
 }
 
 #logo {
