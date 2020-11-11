@@ -37,10 +37,6 @@
   margin-top: -80px;
 }
 
-.isCurrent {
-  font-weight: bold;
-}
-
 /* Landing Page */
 #landingFullPage {
   height: calc(100vh - 150px);
@@ -77,7 +73,6 @@
 }
 
 /* Sections */
-
 .fullPageFlex { height: 100vh; }
 
 .fullPageFlex, #footer {
