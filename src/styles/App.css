@@ -110,3 +110,12 @@ h1 {
   font-size: 400%;
   color: var(--grey);
 }
+
+/* Skills */
+#morePadding { margin-top: 1.6%; }
+
+.centreP {
+  text-align: center;
+  width: 80%;
+  margin-top: 1%;
+}
