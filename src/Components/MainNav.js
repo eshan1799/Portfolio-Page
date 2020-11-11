@@ -8,7 +8,7 @@ class MainNav extends React.Component {
             <>
             <Navbar
                 id="topNav"
-                collapseOnSelect expand="md"
+                collapseOnSelect expand="sm"
             >
                 <Navbar.Brand>
                     <a id="logo" href="http://localhost:8000/">
