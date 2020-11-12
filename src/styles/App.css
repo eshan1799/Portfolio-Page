@@ -107,12 +107,13 @@ h1 {
 }
 
 /* About */
-#morePadding { margin-top: 1.6%; }
+h2 { margin-bottom: 1.6%; }
+
+#paraSpace { margin-top: 1%; }
 
 .centreP {
   text-align: center;
   width: 80%;
-  margin-top: 1%;
 }
 
 /* Skills */
@@ -120,5 +121,19 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+}
+
+.skillsIcons {
+  color: var(--grey);
+  padding-bottom: 10%;
+}
+
+.orange {
+  color: var(--orange);
+  margin-bottom: 6%;
+}
+
+.skillsCards {
+  margin: 0 1%;
 }
