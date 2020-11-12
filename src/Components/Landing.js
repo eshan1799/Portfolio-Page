@@ -7,7 +7,7 @@ class Landing extends React.Component {
             id="landingFullPage"
             >
             <section 
-            id="centreFlex"
+            className="centreFlexRow"
             >
                 <img id="image" src="../img/me.png" />
                 <div id="nameAndRole">
