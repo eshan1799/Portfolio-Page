@@ -1,6 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 module.exports = {
   entry: "./src/index.js", // the main JavaScript file of the app/project
@@ -41,5 +42,6 @@ module.exports = {
       filename: "index.html",
       inject: "body",
     }),
+    new FaviconsWebpackPlugin("./src/img/favicon.png")
   ],
 };

@@ -1,41 +1,139 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+/* Global */
+:root {
+  --grey: #43464B;
+  --orange: #f1a07a;
+}
+
 * {
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  background-attachment: fixed;
 }
 
-.fullPage {
-  height: 100vh;
-  width: 100vw;
+/* Navs */
+#topNav {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2.5%;
 }
 
-.scrollspy {
-  background-color: #515151;
-  margin: 10px;
-  position: fixed;
-  top: 0;
-  right: 0;
+.navlinks {
+  margin-right: 8%;
 }
 
-ul {
-  list-style: none;
-}
-
-li {
-  margin: 10px;
-  padding: 10px 0;
-}
-
-a {
-  color: white;
-}
-
-.isCurrent {
+#logo {
   font-weight: bold;
 }
 
-.isCurrent a, h2 {
-  color: #f1a07a;
+.diamondsNav {
+  position: fixed;
+  left: 40px;
+  z-index: 10;
+  top: 50%;
+  margin-top: -80px;
 }
 
-a:hover { color: white; opacity: 50%; }
+/* Landing Page */
+#landingFullPage {
+  height: calc(100vh - 150px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.centreFlexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#image {
+  height: 400px;
+  width: 400px;
+}
+
+#nameAndRole {
+  margin-left: 20px;
+}
+
+#role {
+  color: var(--orange);
+  padding-left: 5px;
+}
+
+/* Sections */
+.fullPageFlex { height: 100vh; }
+
+.fullPageFlex, #footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 8.5%;
+}
+
+/* Elements */
+ul { list-style: none; }
+
+li { padding: 4px 0px; }
+
+a {
+  color: var(--grey);
+  transition: color .2s ease;
+}
+
+a:hover {
+  opacity: 60%;
+  text-decoration: none;
+  color: var(--orange);
+}
+
+.isCurrent a, h2 { color: var(--orange); }
+
+h1 { 
+  font-size: 400%;
+  color: var(--grey);
+}
+
+/* About */
+h2 { margin-bottom: 1.6%; }
+
+#paraSpace { margin-top: 1%; }
+
+.centreP {
+  text-align: center;
+  width: 80%;
+}
+
+/* Skills */
+.centreFlexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skillsIcons {
+  color: var(--grey);
+  padding-bottom: 10%;
+}
+
+.orange {
+  color: var(--orange);
+  margin-bottom: 6%;
+}
+
+.skillsCards {
+  margin: 0 1%;
+}
