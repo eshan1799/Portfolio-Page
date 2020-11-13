@@ -19,7 +19,7 @@ class Projects extends React.Component {
                                 Projects
                             </h2>
                             {/* <CardCarousel /> */}
-                            <CardGroup>
+                            {/* <CardGroup>
                                 <Card className="skillsCards shadow-sm p-4 bg-white rounded">
                                     <Card.Body className="centreFlexColumn">
                                         <div className="skillsIcons">
@@ -51,7 +51,7 @@ class Projects extends React.Component {
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
-                            </CardGroup>
+                            </CardGroup> */}
                         </section>
                     </Transition>
                 </AnimatedBg>
