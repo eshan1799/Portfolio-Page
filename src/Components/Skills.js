@@ -44,10 +44,10 @@ class Skills extends React.Component {
                                         <Card.Title className="orange">
                                             Back-end
                                         </Card.Title>
-                                            <ul className="centreFlexColumn">
-                                                <li>Python (Django / Flask)</li>
-                                                <li>JavaScript (Express)</li>
-                                            </ul>
+                                        <ul className="centreFlexColumn">
+                                            <li>Python (Django / Flask)</li>
+                                            <li>JavaScript (Express)</li>
+                                        </ul>
                                     </Card.Body>
                                 </Card>
                                 <Card className="skillsCards shadow-sm p-4 bg-white rounded">
