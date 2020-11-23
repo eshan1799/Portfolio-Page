@@ -1,11 +1,5 @@
 # Eshan Chatwal Portfolio
 
-## Run Instructions
-
-- Click "Use this template" at the top of this repository
-- Follow GitHub's repository setup instructions
-- Clone new repository to machine
-
 - ### In new repository local terminal
     - On first use run `npm install` to install required packages
     - To start app on LOCALHOST:8000 run `npm start`
