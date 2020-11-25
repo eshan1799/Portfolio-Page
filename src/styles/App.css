@@ -83,6 +83,22 @@
   margin: 0px 8.5%;
 }
 
+.flex {
+  padding: 3rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.fullPage {
+  height: 100vh;
+}
+
+.fullPage h2 { margin: auto; }
+
+.cardWidth {
+  width: 18%;
+}
+
 /* Elements */
 ul { list-style: none; }
 
