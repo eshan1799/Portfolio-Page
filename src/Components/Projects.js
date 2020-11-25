@@ -1,8 +1,6 @@
 import React from "react";
 import { AnimatedBg, Transition } from 'scroll-background';
-import { Card, CardGroup } from "react-bootstrap";
 import { CardCarousel } from "./index/index";
-import Slider from "react-slick";
 
 class Projects extends React.Component {
     render() {
