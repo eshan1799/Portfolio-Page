@@ -145,14 +145,81 @@ export default function CardCarousel() {
           </section>
         </div>
 
-        <div>
-          {/* Slide 4 */}
+        {/* Github Clone */}
+        <div id="darkBlue" className="projectBlocks">
+          <section className="projects">
+            <img className="projectImage" src="./img/Projects/GithubClone.png"></img>
+            <div className="projectInfo">
+              <h3 className="projectTitle">
+                Github Clone
+              </h3>
+              <p className="projectDescription">
+                A Github clone, to see a list of user's repositories and repository info.
+              </p>
+              <ul>
+                <li className="projectPointers">
+                  <Arrow />
+                  <span className="bulletPointArrow">
+                    Search Github users
+                  </span>
+                </li>
+                <li className="projectPointers">
+                  <Arrow />
+                  <span className="bulletPointArrow">
+                    View user repo info
+                  </span>
+                </li>
+              </ul>
+              <div className="projectButtons">
+                <a href="https://github.com/eshan1799/Github-Repo-Page" className="buttons" target="_blank">
+                  Visit Project
+                </a>
+                <a href="https://github.com/eshan1799/Github-Repo-Page" className="buttons" target="_blank">
+                  Github
+                </a>
+              </div>
+            </div>
+          </section>
         </div>
-        <div>
-          {/* Slide 5 */}
-        </div>
-        <div>
-          {/* Slide 6 */}
+
+        {/* BAGEBlog */}
+        <div id="babyPink" className="projectBlocks">
+          <section className="projects">
+            <img className="projectImage" src="./img/Projects/BAGEBlog.png"></img>
+            <div className="projectInfo">
+              <h3 className="projectTitle">
+                Bage Blog
+              </h3>
+              <p className="projectDescription">
+                A blog site, where users can post, comment on and react to anonymous entries.
+              </p>
+              <ul>
+                <li className="projectPointers">
+                  <Arrow />
+                  <span className="bulletPointArrow">
+                    Built using a RESTful API and the Express.js framework
+                  </span>
+                </li>
+                <li className="projectPointers">
+                  <Arrow />
+                  <span className="bulletPointArrow">
+                    Users can add optional GIFs to posts 
+                  </span>
+                </li>
+                <li className="projectPointers">
+                  <Arrow />
+                  <span className="bulletPointArrow">
+                    Search through entries by title, text or #tag
+                  </span>
+                </li>
+              </ul>
+              <div className="projectButtons">
+                <a href="https://github.com/eshan1799/BAGE-Blog" className="buttons" target="_blank">
+                  Github
+                </a>
+              </div>
+            </div>
+          </section>
         </div>
       </Slider>
       </div>
