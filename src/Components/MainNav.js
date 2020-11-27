@@ -11,7 +11,7 @@ class MainNav extends React.Component {
                 collapseOnSelect expand="sm"
             >
                 <Navbar.Brand>
-                    <a id="logo" href="http://localhost:8000/">
+                    <a id="logo" className="navlinks" href="http://localhost:8000/">
                         EC
                     </a>
                 </Navbar.Brand>
