@@ -62,12 +62,19 @@ export default function CardCarousel() {
                 </li>
               </ul>
               <div className="projectButtons">
-                <button className="buttons">
-                  Visit Project
-                </button>
-                <button className="buttons">
-                  Github
-                </button>
+                <a href="https://3x.netlify.app/" className="buttons">
+                    Visit Project
+                </a>
+                <a href="https://3x.netlify.app/" className="buttons">
+                    Github
+                </a>
+
+                  <button className="buttons">
+                    Visit Project
+                  </button>
+                  <button className="buttons">
+                    Github
+                  </button>
               </div>
             </div>
           </section>
