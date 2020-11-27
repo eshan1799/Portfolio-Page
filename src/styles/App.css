@@ -111,8 +111,13 @@ a:hover {
   margin: 0 auto;
 }
 
+#blue { background-color: #AFD1D5; }
+
+#pink { background-color: #FBC5E4; }
+
+#neonBlue { background-color: #94E8DB; }
+
 .projectBlocks {
-  background-color: #AFD1D5;
   border-radius: 2px;
   padding: 3%;
   margin-top: 3%;
