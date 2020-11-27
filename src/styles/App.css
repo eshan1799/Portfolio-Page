@@ -135,15 +135,25 @@
 .projectButtons {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .buttons {
-  padding: 2%;
-  margin-right: 3%;
-  margin-top: 0%;
+  text-align: center;
+  padding: 2% 0%;
+  margin-top: 1%;
+  margin-right: 5%;
   border: solid 1px var(--grey);
   background-color: transparent;
+  width: 100%;
+  display: inline;
+  transition: all .15s ease-in;
+}
+
+.buttons:hover, .buttons:focus {
+  background-color: var(--red);
+  color: white;
+  padding: 2% 2%;
 }
 
 /* Elements */
