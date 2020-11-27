@@ -13,17 +13,6 @@ export default function CardCarousel() {
       slidesToShow: 1,
       slidesToScroll: 1,
       swipeToSlide: true,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true
-          }
-        }
-      ]
     };
 
     return (
@@ -62,19 +51,12 @@ export default function CardCarousel() {
                 </li>
               </ul>
               <div className="projectButtons">
-                <a href="https://3x.netlify.app/" className="buttons">
-                    Visit Project
+                <a href="https://3x.netlify.app/" className="buttons" target="_blank">
+                  Visit Project
                 </a>
-                <a href="https://3x.netlify.app/" className="buttons">
-                    Github
+                <a href="https://3x.netlify.app/" className="buttons" target="_blank">
+                  Github
                 </a>
-
-                  <button className="buttons">
-                    Visit Project
-                  </button>
-                  <button className="buttons">
-                    Github
-                  </button>
               </div>
             </div>
           </section>
