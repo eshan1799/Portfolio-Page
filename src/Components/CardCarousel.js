@@ -1,6 +1,6 @@
 import React from "react";
+import { Arrow } from "./index/index";
 import Slider from "react-slick";
-import { Card } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -18,33 +18,33 @@ export default function CardCarousel() {
     return (
       <div className="centreProjects">
       <Slider {...settings}>
+        
+        {/* 3X */}
         <div className="projectBlocks">
           <section className="projects">
             <img className="projectImage" src="./img/Projects/3X.png"></img>
             <div className="projectInfo">
-              <h3 className="projectTitle">3X</h3>
-              <p className="projectDescription">A web-based virtual trading app, to experience market trading without the risk.</p>
+              <h3 className="projectTitle">
+                3X
+              </h3>
+              <p className="projectDescription">
+                A web-based virtual trading app, to experience market trading without the risk.
+              </p>
               <ul>
                 <li className="projectPointers">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                  </svg>
+                  <Arrow />
                   <span className="bulletPointArrow">
                     Login page
                   </span>
                 </li>
                 <li className="projectPointers">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                  </svg>
+                  <Arrow />
                   <span className="bulletPointArrow">
                     Secure server routes
                   </span>
                 </li>
                 <li className="projectPointers">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                  </svg>
+                  <Arrow />
                   <span className="bulletPointArrow">
                     Real-time market data
                   </span>
@@ -61,8 +61,48 @@ export default function CardCarousel() {
             </div>
           </section>
         </div>
-        <div>
-          {/* Slide 2 */}
+
+        {/* Trivia Boss */}
+        <div className="projectBlocks">
+          <section className="projects">
+            <img className="projectImage" src="./img/Projects/3X.png"></img>
+            <div className="projectInfo">
+              <h3 className="projectTitle">
+                Trivia Boss
+              </h3>
+              <p className="projectDescription">
+                A web-based virtual trading app, to experience market trading without the risk.
+              </p>
+              <ul>
+                <li className="projectPointers">
+                  <Arrow />
+                  <span className="bulletPointArrow">
+                    Login page
+                  </span>
+                </li>
+                <li className="projectPointers">
+                  <Arrow />
+                  <span className="bulletPointArrow">
+                    Secure server routes
+                  </span>
+                </li>
+                <li className="projectPointers">
+                  <Arrow />
+                  <span className="bulletPointArrow">
+                    Real-time market data
+                  </span>
+                </li>
+              </ul>
+              <div className="projectButtons">
+                <a href="https://trivia-boss.netlify.app/" className="buttons" target="_blank">
+                  Visit Project
+                </a>
+                <a href="https://github.com/eshan1799/quizzo" className="buttons" target="_blank">
+                  Github
+                </a>
+              </div>
+            </div>
+          </section>
         </div>
         <div>
           {/* Slide 3 */}
