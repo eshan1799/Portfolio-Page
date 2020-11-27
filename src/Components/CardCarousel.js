@@ -54,7 +54,7 @@ export default function CardCarousel() {
                 <a href="https://3x.netlify.app/" className="buttons" target="_blank">
                   Visit Project
                 </a>
-                <a href="https://3x.netlify.app/" className="buttons" target="_blank">
+                <a href="https://github.com/eshan1799/lap4project-3x" className="buttons" target="_blank">
                   Github
                 </a>
               </div>
