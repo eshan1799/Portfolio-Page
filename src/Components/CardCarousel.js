@@ -6,10 +6,11 @@ import "slick-carousel/slick/slick-theme.css";
 
 export default function CardCarousel() {
     var settings = {
+      arrows: false,
       dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 2,
+      slidesToShow: 1,
       slidesToScroll: 1,
       swipeToSlide: true,
       responsive: [
@@ -26,127 +27,65 @@ export default function CardCarousel() {
     };
 
     return (
-      <div className="flex">
+      <div className="centreProjects">
       <Slider {...settings}>
-        <div>
-          <Card className="skillsCards shadow-sm p-4 bg-white rounded">
-            <Card.Body 
-            className="centreFlexColumn"
-            >
-              <div className="skillsIcons">
-                <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" className="bi bi-columns" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fillRule="evenodd" d="M15 2H1v12h14V2zM1 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1z"/>
-                  <path fillRule="evenodd" d="M7.5 14V2h1v12h-1zm0-8H1V5h6.5v1zm7.5 5H8.5v-1H15v1z"/>
-                </svg>
+        <div className="projectBlocks">
+          <section className="projects">
+            <img className="projectImage" src="./img/Projects/3X.png"></img>
+            <div className="projectInfo">
+              <h3 className="projectTitle">3X</h3>
+              <p className="projectDescription">A web-based virtual trading app, to experience market trading without the risk.</p>
+              <ul>
+                <li className="projectPointers">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                  </svg>
+                  <span className="bulletPointArrow">
+                    Login page
+                  </span>
+                </li>
+                <li className="projectPointers">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                  </svg>
+                  <span className="bulletPointArrow">
+                    Secure server routes
+                  </span>
+                </li>
+                <li className="projectPointers">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                  </svg>
+                  <span className="bulletPointArrow">
+                    Real-time market data
+                  </span>
+                </li>
+              </ul>
+              <div className="projectButtons">
+                <button className="buttons">
+                  Visit Project
+                </button>
+                <button className="buttons">
+                  Github
+                </button>
               </div>
-              <Card.Title className="orange">
-                Front-end
-              </Card.Title>
-              <Card.Text>
-                Slide 1
-              </Card.Text>
-            </Card.Body>
-          </Card>
+            </div>
+          </section>
         </div>
         <div>
-          <Card className="skillsCards shadow-sm p-4 bg-white rounded">
-            <Card.Body 
-            className="centreFlexColumn"
-            >
-              <div className="skillsIcons">
-                <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" className="bi bi-columns" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fillRule="evenodd" d="M15 2H1v12h14V2zM1 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1z"/>
-                  <path fillRule="evenodd" d="M7.5 14V2h1v12h-1zm0-8H1V5h6.5v1zm7.5 5H8.5v-1H15v1z"/>
-                </svg>
-              </div>
-              <Card.Title className="orange">
-                Front-end
-              </Card.Title>
-              <Card.Text>
-                Slide 2
-              </Card.Text>
-            </Card.Body>
-            </Card>
+          {/* Slide 2 */}
         </div>
         <div>
-        <Card className="skillsCards shadow-sm p-4 bg-white rounded">
-            <Card.Body 
-            className="centreFlexColumn"
-            >
-              <div className="skillsIcons">
-                <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" className="bi bi-columns" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fillRule="evenodd" d="M15 2H1v12h14V2zM1 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1z"/>
-                  <path fillRule="evenodd" d="M7.5 14V2h1v12h-1zm0-8H1V5h6.5v1zm7.5 5H8.5v-1H15v1z"/>
-                </svg>
-              </div>
-              <Card.Title className="orange">
-                Front-end
-              </Card.Title>
-              <Card.Text>
-                Slide 3
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          {/* Slide 3 */}
         </div>
         <div>
-        <Card className="skillsCards shadow-sm p-4 bg-white rounded">
-            <Card.Body 
-            className="centreFlexColumn"
-            >
-              <div className="skillsIcons">
-                <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" className="bi bi-columns" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fillRule="evenodd" d="M15 2H1v12h14V2zM1 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1z"/>
-                  <path fillRule="evenodd" d="M7.5 14V2h1v12h-1zm0-8H1V5h6.5v1zm7.5 5H8.5v-1H15v1z"/>
-                </svg>
-              </div>
-              <Card.Title className="orange">
-                Front-end
-              </Card.Title>
-              <Card.Text>
-                Slide 4
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          {/* Slide 4 */}
         </div>
         <div>
-        <Card className="skillsCards shadow-sm p-4 bg-white rounded">
-            <Card.Body 
-            className="centreFlexColumn"
-            >
-              <div className="skillsIcons">
-                <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" className="bi bi-columns" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fillRule="evenodd" d="M15 2H1v12h14V2zM1 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1z"/>
-                  <path fillRule="evenodd" d="M7.5 14V2h1v12h-1zm0-8H1V5h6.5v1zm7.5 5H8.5v-1H15v1z"/>
-                </svg>
-              </div>
-              <Card.Title className="orange">
-                Front-end
-              </Card.Title>
-              <Card.Text>
-                Slide 5
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          {/* Slide 5 */}
         </div>
         <div>
-        <Card className="skillsCards shadow-sm p-4 bg-white rounded">
-            <Card.Body 
-            className="centreFlexColumn"
-            >
-              <div className="skillsIcons">
-                <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" className="bi bi-columns" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fillRule="evenodd" d="M15 2H1v12h14V2zM1 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H1z"/>
-                  <path fillRule="evenodd" d="M7.5 14V2h1v12h-1zm0-8H1V5h6.5v1zm7.5 5H8.5v-1H15v1z"/>
-                </svg>
-              </div>
-              <Card.Title className="orange">
-                Front-end
-              </Card.Title>
-              <Card.Text>
-                Slide 6
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          {/* Slide 6 */}
         </div>
       </Slider>
       </div>
