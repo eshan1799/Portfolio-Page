@@ -208,6 +208,8 @@ h1 {
 /* About */
 h2 { margin-bottom: 1.6%; }
 
+#aboutHeader { padding-bottom: 2%; }
+
 #paraSpace { margin-top: 1%; }
 
 .centreP {
@@ -233,15 +235,11 @@ h2 { margin-bottom: 1.6%; }
   margin-bottom: 8%;
 }
 
-.skillsCards {
-  margin: 0 1%;
-}
+.skillsCards { margin: 2% 1%; }
 
 #cards { width: 80%; }
 
-.tooltips {
-  border-bottom: 1px dotted var(--grey);
-}
+.tooltips { border-bottom: 1px dotted var(--grey); }
 
 .tooltip > .tooltip-inner {
   color: white;
@@ -250,9 +248,7 @@ h2 { margin-bottom: 1.6%; }
   background-color: var(--grey);
 }
 
-.tooltips:hover {
-  cursor: pointer;
-}
+.tooltips:hover { cursor: pointer; }
 
 /* Contact */
 #contact {
@@ -278,4 +274,10 @@ h2 { margin-bottom: 1.6%; }
   background-color: var(--grey);
   padding: 5% 13%;
   cursor: pointer;
+}
+
+#footer {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
 }
