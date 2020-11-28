@@ -28,6 +28,11 @@ class Contact extends React.Component {
                                     <i className="far fa-file-alt fa-3x"></i>
                                 </a>
                             </div>
+                            <div id="footer">
+                                <p id="bottom">
+                                    Made by Eshan Chatwal.
+                                </p>
+                            </div>
                         </section>
                     </Transition>
                 </AnimatedBg>
