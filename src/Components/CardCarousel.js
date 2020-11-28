@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 export default function CardCarousel() {
     var settings = {
-      arrows: false,
+      arrows: true,
       dots: true,
       infinite: true,
       speed: 500,
@@ -28,19 +28,19 @@ export default function CardCarousel() {
                 3X
               </h3>
               <p className="projectDescription">
-                A web-based virtual trading app, to experience market trading without the risk.
+                A web-based virtual trading app - where users can experience market trading without the risk.
               </p>
               <ul>
                 <li className="projectPointers">
                   <Arrow />
                   <span className="bulletPointArrow">
-                    Login page
+                    Secure login and register
                   </span>
                 </li>
                 <li className="projectPointers">
                   <Arrow />
                   <span className="bulletPointArrow">
-                    Secure server routes
+                    Protected server routes
                   </span>
                 </li>
                 <li className="projectPointers">
@@ -71,7 +71,7 @@ export default function CardCarousel() {
                 Trivia Boss
               </h3>
               <p className="projectDescription">
-                A multiplayer quiz, where players can test their knowledge of different topics.
+                A multiplayer quiz - where players can test their knowledge of different topics.
               </p>
               <ul>
                 <li className="projectPointers">
@@ -114,7 +114,7 @@ export default function CardCarousel() {
                 Habitapp
               </h3>
               <p className="projectDescription">
-                A habit-tracking web application, that allows users to manage their habits and promotes self growth.
+                A habit-tracking web application - allows users to manage their habits and promotes self growth.
               </p>
               <ul>
                 <li className="projectPointers">
@@ -154,7 +154,7 @@ export default function CardCarousel() {
                 Github Clone
               </h3>
               <p className="projectDescription">
-                A Github clone, to see a list of user's repositories and repository info.
+                A Github clone - displays a list of user's repositories and repository info.
               </p>
               <ul>
                 <li className="projectPointers">
@@ -191,7 +191,7 @@ export default function CardCarousel() {
                 Bage Blog
               </h3>
               <p className="projectDescription">
-                A blog site, where users can post, comment on and react to anonymous entries.
+                A blog site - where users can post, comment on and react to anonymous entries.
               </p>
               <ul>
                 <li className="projectPointers">
