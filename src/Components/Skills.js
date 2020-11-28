@@ -1,10 +1,16 @@
 import React from "react";
-import { Card, CardGroup } from "react-bootstrap";
+import { Card, CardGroup, Button, OverlayTrigger, Tooltip } from "react-bootstrap";
 import { AnimatedBg, Transition } from 'scroll-background';
 
 class Skills extends React.Component {
     render() {
-        return (
+        const renderTooltip = (props) => (
+            <Tooltip {...props}>
+                { props }
+            </Tooltip>
+        );
+
+          return (
             <>
                 <AnimatedBg>
                     <Transition from="#E6E6E6" to="#FFFFFF" position={0.7}>
@@ -15,7 +21,7 @@ class Skills extends React.Component {
                             <h2>
                                 Skills
                             </h2>
-                            <CardGroup>
+                            <CardGroup id="cards">
                                 <Card className="skillsCards shadow-sm p-4 bg-white rounded">
                                     <Card.Body className="centreFlexColumn">
                                         <div className="skillsIcons">
@@ -28,7 +34,8 @@ class Skills extends React.Component {
                                             Front-end
                                         </Card.Title>
                                             <ul className="centreFlexColumn">
-                                                <li>HTML5 &#38; CSS3</li>
+                                                <li>HTML5</li>
+                                                <li>CSS3</li>
                                                 <li>JavaScript</li>
                                                 <li>React.js</li>
                                             </ul>
@@ -45,8 +52,30 @@ class Skills extends React.Component {
                                             Back-end
                                         </Card.Title>
                                         <ul className="centreFlexColumn">
-                                            <li>Python (Django / Flask)</li>
-                                            <li>JavaScript (Express)</li>
+                                            <OverlayTrigger
+                                                placement="right"
+                                                overlay={
+                                                    <Tooltip>
+                                                        Django
+                                                        <br />
+                                                        Flask
+                                                    </Tooltip> 
+                                                }
+                                            >
+                                                <li className="tooltips">Python</li>
+                                            </OverlayTrigger>
+                                            <OverlayTrigger
+                                                placement="bottom"
+                                                overlay={
+                                                    <Tooltip>
+                                                        HTTP
+                                                        <br />
+                                                        Express
+                                                    </Tooltip> 
+                                                }
+                                            >
+                                                <li className="tooltips">JavaScript</li>
+                                            </OverlayTrigger>
                                         </ul>
                                     </Card.Body>
                                 </Card>
@@ -63,8 +92,32 @@ class Skills extends React.Component {
                                             Other
                                         </Card.Title>
                                         <ul className="centreFlexColumn">
-                                            <li>SQL (PostgreSQL / MongoDB)</li>
-                                            <li>TDD (Mocha / Chai / Jest )</li>
+                                            <OverlayTrigger
+                                                placement="right"
+                                                overlay={
+                                                    <Tooltip>
+                                                        PostgreSQL
+                                                        <br />
+                                                        MongoDB
+                                                    </Tooltip> 
+                                                }
+                                            >
+                                                <li className="tooltips">SQL</li>
+                                            </OverlayTrigger>
+                                            <OverlayTrigger
+                                                placement="right"
+                                                overlay={
+                                                    <Tooltip>
+                                                        Mocha
+                                                        <br />
+                                                        Chai
+                                                        <br />
+                                                        Jest
+                                                    </Tooltip> 
+                                                }
+                                            >
+                                                <li className="tooltips">TDD</li>
+                                            </OverlayTrigger>
                                             <li>Git Version Control</li>
                                             <li>Visual Basic.NET</li>
                                             <li>Microsoft Office</li>
