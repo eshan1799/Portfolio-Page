@@ -188,7 +188,7 @@ a:hover {
   background-color: var(--grey);
   text-decoration: none;
   color: white;
-  padding: 2% 2%;
+  padding: 2% 3%;
 }
 
 .buttons:focus { border-width: 2px; }
@@ -251,5 +251,34 @@ h2 { margin-bottom: 1.6%; }
 }
 
 .tooltips:hover {
+  cursor: pointer;
+}
+
+/* Contact */
+
+#contactHeader { display: block; }
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: var(--grey);
+  margin-top: 7%;
+}
+
+#lastIcon { margin-right: 0; }
+
+.contactIcons {
+  margin-right: 25%;
+  padding: 5% 5%;
+  /* border: 1px solid var(--grey); */
+  border-radius: 5px;
+  transition: all .2s ease;
+}
+
+.contactIcons:hover {
+  color: white;
+  background-color: var(--grey);
+  padding: 5% 15%;
   cursor: pointer;
 }
