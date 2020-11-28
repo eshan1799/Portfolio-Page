@@ -22,7 +22,7 @@ export default function CardCarousel() {
         {/* 3X */}
         <div id="blue" className="projectBlocks">
           <section className="projects">
-            <img className="projectImage" src="./img/Projects/3X.png"></img>
+            <img className="projectImage" src="./assets/img/Projects/3X.png"></img>
             <div className="projectInfo">
               <h3 className="projectTitle">
                 3X
@@ -65,7 +65,7 @@ export default function CardCarousel() {
         {/* Trivia Boss */}
         <div id="pink" className="projectBlocks">
           <section className="projects">
-            <img className="projectImage" src="./img/Projects/TriviaBoss.png"></img>
+            <img className="projectImage" src="./assets/img/Projects/TriviaBoss.png"></img>
             <div className="projectInfo">
               <h3 className="projectTitle">
                 Trivia Boss
@@ -108,7 +108,7 @@ export default function CardCarousel() {
         {/* Habitapp */}
         <div id="neonBlue" className="projectBlocks">
           <section className="projects">
-            <img className="projectImage" src="./img/Projects/HabitApp.png"></img>
+            <img className="projectImage" src="./assets/img/Projects/HabitApp.png"></img>
             <div className="projectInfo">
               <h3 className="projectTitle">
                 Habitapp
@@ -148,7 +148,7 @@ export default function CardCarousel() {
         {/* Github Clone */}
         <div id="darkBlue" className="projectBlocks">
           <section className="projects">
-            <img className="projectImage" src="./img/Projects/GithubClone.png"></img>
+            <img className="projectImage" src="./assets/img/Projects/GithubClone.png"></img>
             <div className="projectInfo">
               <h3 className="projectTitle">
                 Github Clone
@@ -185,7 +185,7 @@ export default function CardCarousel() {
         {/* BAGEBlog */}
         <div id="babyPink" className="projectBlocks">
           <section className="projects">
-            <img className="projectImage" src="./img/Projects/BAGEBlog.png"></img>
+            <img className="projectImage" src="./assets/img/Projects/BAGEBlog.png"></img>
             <div className="projectInfo">
               <h3 className="projectTitle">
                 Bage Blog
