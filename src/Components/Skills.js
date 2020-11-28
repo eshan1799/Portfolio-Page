@@ -34,8 +34,8 @@ class Skills extends React.Component {
                                             Front-end
                                         </Card.Title>
                                             <ul className="centreFlexColumn">
-                                                <li>HTML5</li>
-                                                <li>CSS3</li>
+                                                <li>HTML</li>
+                                                <li>CSS</li>
                                                 <li>JavaScript</li>
                                                 <li>React.js</li>
                                             </ul>
@@ -67,7 +67,7 @@ class Skills extends React.Component {
                                             <OverlayTrigger
                                                 placement="bottom"
                                                 overlay={
-                                                    <Tooltip>
+                                                    <Tooltip className="tooltip">
                                                         HTTP
                                                         <br />
                                                         Express
@@ -93,7 +93,7 @@ class Skills extends React.Component {
                                         </Card.Title>
                                         <ul className="centreFlexColumn">
                                             <OverlayTrigger
-                                                placement="right"
+                                                placement="left"
                                                 overlay={
                                                     <Tooltip>
                                                         PostgreSQL
