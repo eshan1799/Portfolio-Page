@@ -230,9 +230,19 @@ h2 { margin-bottom: 1.6%; }
 
 .orange {
   color: var(--orange);
-  margin-bottom: 6%;
+  margin-bottom: 8%;
 }
 
 .skillsCards {
   margin: 0 1%;
+}
+
+#cards { width: 80%; }
+
+.tooltips {
+  border-bottom: 1px dotted var(--grey);
+}
+
+.tooltips:hover {
+  cursor: pointer;
 }
