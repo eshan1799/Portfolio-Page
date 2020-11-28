@@ -15,10 +15,18 @@ class Contact extends React.Component {
                                 Contact
                             </h2>
                             <div id="contact">
-                                <i className="contactIcons fab fa-linkedin-in fa-3x"></i>
-                                <i class="contactIcons far fa-envelope fa-3x"></i>
-                                <i className="contactIcons fab fa-github fa-3x"></i>
-                                <i id="lastIcon" className="contactIcons far fa-file-alt fa-3x"></i>
+                                <a className="contactIcons" href="https://www.linkedin.com/in/eshan-chatwal-551b201a2/" target="_blank">
+                                    <i className="fab fa-linkedin-in fa-3x"></i>
+                                </a>
+                                <a className="contactIcons" href="mailto: eshan1799@gmail.com" target="_blank">
+                                    <i class="far fa-envelope fa-3x"></i>
+                                </a>
+                                <a className="contactIcons" href="https://github.com/eshan1799/" target="_blank">
+                                    <i className="fab fa-github fa-3x"></i>
+                                </a>
+                                <a id="lastIcon" className="contactIcons" href="./assets/Eshan_Chatwal_CV.pdf" target="_blank">
+                                    <i className="far fa-file-alt fa-3x"></i>
+                                </a>
                             </div>
                         </section>
                     </Transition>

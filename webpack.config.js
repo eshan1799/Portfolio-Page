@@ -73,6 +73,6 @@ module.exports = {
       filename: "index.html",
       inject: "body",
     }),
-    new FaviconsWebpackPlugin("./src/img/favicon.png")
+    new FaviconsWebpackPlugin("./src/assets/img/favicon.png")
   ],
 };
