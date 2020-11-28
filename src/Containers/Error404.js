@@ -3,23 +3,20 @@ import { NavLink, Link } from 'react-router-dom'
 
 const Error404 = () => {
     return (
-        <div>
-            <nav>
-                <NavLink to='/'>Home</NavLink>
-            </nav>
+        <section id="errorPage" className="fullPageFlex">
                 <h1>
                     Oops!
                 </h1>
                 <h3>
-                    We can't seem to find the page you're looking for.
-                </h3>
+                    I can't seem to find the page you're looking for.
+                </h3><br />
                 <p>
                     Error Code: 404
                 </p>
-            <Link to="/">
-                <button>Back</button>
+            <Link id="errorButton" className="buttons" to="/">
+                Back
             </Link>
-        </div>
+        </section>
     )
 }
 export default Error404;
