@@ -36,17 +36,6 @@
   color: var(--orange);
 }
 
-/* a {
-  color: var(--grey);
-  transition: color .2s ease;
-}
-
-a:hover {
-  opacity: 60%;
-  text-decoration: none;
-  color: var(--orange);
-} */
-
 #logo {
   font-weight: bold;
 }
@@ -194,6 +183,13 @@ a:hover {
 .buttons:focus { border-width: 2px; }
 
 /* Elements */
+#errorPage { text-align: center; }
+
+#errorButton {
+  width: 20%;
+  margin-right: 0;
+}
+
 ul { list-style: none; }
 
 li { padding: 4px 0px; }
