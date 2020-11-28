@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardGroup, Button, OverlayTrigger, Tooltip } from "react-bootstrap";
+import { Card, CardGroup, OverlayTrigger, Tooltip } from "react-bootstrap";
 import { AnimatedBg, Transition } from 'scroll-background';
 
 class Skills extends React.Component {
