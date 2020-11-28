@@ -255,23 +255,20 @@ h2 { margin-bottom: 1.6%; }
 }
 
 /* Contact */
-
-#contactHeader { display: block; }
-
 #contact {
   display: flex;
   justify-content: center;
   align-content: center;
   color: var(--grey);
-  margin-top: 7%;
+  padding-top: 7%;
 }
 
 #lastIcon { margin-right: 0; }
 
 .contactIcons {
+  color: var(--grey);
   margin-right: 25%;
   padding: 5% 5%;
-  /* border: 1px solid var(--grey); */
   border-radius: 5px;
   transition: all .2s ease;
 }
@@ -279,6 +276,6 @@ h2 { margin-bottom: 1.6%; }
 .contactIcons:hover {
   color: white;
   background-color: var(--grey);
-  padding: 5% 15%;
+  padding: 5% 13%;
   cursor: pointer;
 }
