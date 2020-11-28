@@ -243,6 +243,13 @@ h2 { margin-bottom: 1.6%; }
   border-bottom: 1px dotted var(--grey);
 }
 
+.tooltip > .tooltip-inner {
+  color: white;
+  font-size: .95rem;
+  width: 100px;
+  background-color: var(--grey);
+}
+
 .tooltips:hover {
   cursor: pointer;
 }
