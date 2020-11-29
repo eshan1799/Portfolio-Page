@@ -10,11 +10,15 @@ class MainNav extends React.Component {
                 id="topNav"
                 collapseOnSelect expand="sm"
             >
-                <Navbar.Brand>
-                    <a id="logo" className="navlinks" href="http://localhost:8000/">
+                <Nav.Link id="logo" href="http://localhost:8000/">
+                        EC
+                </Nav.Link>
+
+                {/* <Navbar.Brand>
+                    <a id="logo" className="logoNavLink" href="http://localhost:8000/">
                         EC
                     </a>
-                </Navbar.Brand>
+                </Navbar.Brand> */}
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
                 <Navbar.Brand>
