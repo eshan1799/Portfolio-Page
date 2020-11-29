@@ -16,7 +16,7 @@ class MainNav extends React.Component {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
                 <Navbar.Brand>
-                    <AnchorLink href="#about" className="small navlinks">
+                    <AnchorLink id="aboutMainNav" href="#about" className="small navlinks">
                         About
                     </AnchorLink>
                     </Navbar.Brand>
