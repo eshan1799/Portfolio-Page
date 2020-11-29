@@ -13,27 +13,27 @@ class SideNav extends React.Component {
                 currentClassName="isCurrent"
                 >
                     <li>
-                        <AnchorLink href="#topNav">
+                        <AnchorLink className="diamondsNavLinks" href="#topNav">
                             <Diamond />
                         </AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink href="#about">
+                        <AnchorLink className="diamondsNavLinks" href="#about">
                             <Diamond />
                         </AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink href="#skills">
+                        <AnchorLink className="diamondsNavLinks" href="#skills">
                             <Diamond />
                         </AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink href="#projects">
+                        <AnchorLink className="diamondsNavLinks" href="#projects">
                             <Diamond />
                         </AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink href="#contact">
+                        <AnchorLink className="diamondsNavLinks" href="#contact">
                             <Diamond />
                         </AnchorLink>
                     </li>

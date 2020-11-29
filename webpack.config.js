@@ -22,6 +22,37 @@ module.exports = {
         test: /\.s(a|c)ss$/,
         loader: ["style-loader", "css-loader"],
       }, // transpile sass/scss files
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          }
+        ]
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'svg-url-loader',
+            options: {
+              limit: 10000,
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'fonts/'
+            }
+          }
+        ]
+      },
     ],
   },
   devServer: {
@@ -42,6 +73,6 @@ module.exports = {
       filename: "index.html",
       inject: "body",
     }),
-    new FaviconsWebpackPlugin("./src/img/favicon.png")
+    new FaviconsWebpackPlugin("./src/assets/img/favicon.png")
   ],
 };

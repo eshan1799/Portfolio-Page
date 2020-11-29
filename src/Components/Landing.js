@@ -9,7 +9,7 @@ class Landing extends React.Component {
             <section 
             className="centreFlexRow"
             >
-                <img id="image" src="../img/me.png" />
+                <img id="landingImage" src="../assets/img/me.png" />
                 <div id="nameAndRole">
                     <h1>
                         Eshan Chatwal

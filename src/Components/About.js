@@ -11,7 +11,7 @@ class About extends React.Component {
                         id="about"
                         className="fullPageFlex"
                         >
-                            <h2>
+                            <h2 id="aboutHeader">
                                 About
                             </h2>
                             <p className="centreP">
