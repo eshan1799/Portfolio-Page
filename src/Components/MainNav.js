@@ -10,7 +10,7 @@ class MainNav extends React.Component {
                 id="topNav"
                 collapseOnSelect expand="sm"
             >
-                <Nav.Link id="logo" href="http://localhost:8000/">
+                <Nav.Link id="logo" href="https://eshanchatwal.netlify.app/">
                     EC
                 </Nav.Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
