@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "A front-end React application with a test suite in Enzyme and Jest",
   "main": "index.js",
+  "homepage": "https://fervent-darwin-6d55c8.netlify.app/",
   "scripts": {
     "start": "webpack-dev-server --mode-development",
     "build": "webpack -p",
