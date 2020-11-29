@@ -22,23 +22,45 @@
 }
 
 .navlinks {
-  margin-right: 8%;
-}
-
-.navlinks, .sideLinks {
   color: var(--grey);
-  transition: color .2s ease;
+  margin-right: 8%;
+  transition: all .2s ease;
+  display: inline;
+  position: relative;
+  overflow: hidden;
 }
 
-.navlinks:hover, .sideLinks:hover {
-  opacity: 60%;
-  text-decoration: none;
+.navlinks:hover {
   color: var(--orange);
+  opacity: 75%;
+  text-decoration: none;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
 }
 
-#logo {
-  font-weight: bold;
+.navlinks:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -5px;
+  background: var(--grey);
+  height: 1px;
+  opacity: 0.6;
+  transition-property: width;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
 }
+
+.navlinks:hover:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
+#logo { font-weight: bold; }
 
 .diamondsNav {
   position: fixed;
@@ -46,6 +68,17 @@
   z-index: 10;
   top: 50%;
   margin-top: -80px;
+}
+
+.diamondsNavLinks {
+  color: var(--grey);
+  transition: color .2s ease;
+}
+
+.diamondsNavLinks:hover {
+  opacity: 60%;
+  text-decoration: none;
+  color: var(--orange);
 }
 
 /* Landing Page */
