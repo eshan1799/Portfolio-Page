@@ -15,7 +15,7 @@ class Contact extends React.Component {
                                 Contact
                             </h2>
                             <div id="contact">
-                                <a className="contactIcons" href="https://www.linkedin.com/in/eshan-chatwal-551b201a2/" target="_blank">
+                                <a className="contactIcons" href="https://www.linkedin.com/in/eshan-chatwal/" target="_blank">
                                     <i className="fab fa-linkedin-in fa-3x"></i>
                                 </a>
                                 <a className="contactIcons" href="mailto: eshan1799@gmail.com" target="_blank">
