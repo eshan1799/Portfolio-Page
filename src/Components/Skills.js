@@ -36,8 +36,9 @@ class Skills extends React.Component {
                                             <ul className="centreFlexColumn">
                                                 <li>HTML</li>
                                                 <li>CSS</li>
-                                                <li>JavaScript</li>
+                                                <li>JavaScript (ES5/6)</li>
                                                 <li>React.js</li>
+                                                <li>Redux</li>
                                             </ul>
                                     </Card.Body>
                                 </Card>
@@ -118,7 +119,8 @@ class Skills extends React.Component {
                                             >
                                                 <li className="tooltips">TDD</li>
                                             </OverlayTrigger>
-                                            <li>Git Version Control</li>
+                                            <li>Git</li>
+                                            <li>Node.js</li>
                                             <li>Visual Basic.NET</li>
                                             <li>Microsoft Office</li>
                                         </ul>                                    
