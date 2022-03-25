@@ -31,28 +31,9 @@ class Skills extends React.Component {
                                             </svg>
                                         </div>
                                         <Card.Title className="orange">
-                                            Front-end
+                                            Dev
                                         </Card.Title>
                                             <ul className="centreFlexColumn">
-                                                <li>HTML</li>
-                                                <li>CSS</li>
-                                                <li>JavaScript</li>
-                                                <li>React.js</li>
-                                                <li>Redux</li>
-                                            </ul>
-                                    </Card.Body>
-                                </Card>
-                                <Card className="skillsCards shadow-sm p-4 bg-white rounded">
-                                    <Card.Body className="centreFlexColumn">
-                                        <div className="skillsIcons">
-                                            <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" className="bi bi-code-slash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path fillRule="evenodd" d="M4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0zm-.999-3.124a.5.5 0 0 1 .33.625l-4 13a.5.5 0 0 1-.955-.294l4-13a.5.5 0 0 1 .625-.33z"/>
-                                            </svg>
-                                        </div>
-                                        <Card.Title className="orange">
-                                            Back-end
-                                        </Card.Title>
-                                        <ul className="centreFlexColumn">
                                             <OverlayTrigger
                                                 placement="right"
                                                 overlay={
@@ -77,6 +58,49 @@ class Skills extends React.Component {
                                             >
                                                 <li className="tooltips">JavaScript</li>
                                             </OverlayTrigger>
+                                                <li>React.js</li>
+                                                <li>Redux</li>
+                                                <li>HTML</li>
+                                                <li>CSS</li>
+                                            </ul>
+                                    </Card.Body>
+                                </Card>
+                                <Card className="skillsCards shadow-sm p-4 bg-white rounded">
+                                    <Card.Body className="centreFlexColumn">
+                                        <div className="skillsIcons">
+                                            <svg width="2.5em" height="2.5em" viewBox="0 0 16 16" className="bi bi-code-slash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path fillRule="evenodd" d="M4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0zm-.999-3.124a.5.5 0 0 1 .33.625l-4 13a.5.5 0 0 1-.955-.294l4-13a.5.5 0 0 1 .625-.33z"/>
+                                            </svg>
+                                        </div>
+                                        <Card.Title className="orange">
+                                            Ops
+                                        </Card.Title>
+                                        <ul className="centreFlexColumn">
+                                        <OverlayTrigger
+                                                placement="right"
+                                                overlay={
+                                                    <Tooltip className="tooltip">
+                                                        EC2
+                                                        <br />
+                                                        S3
+                                                        <br />
+                                                        Lambda
+                                                        <br />
+                                                        RDS
+                                                        <br />
+                                                        EBS
+                                                        <br />
+                                                        IAM
+                                                    </Tooltip> 
+                                                }
+                                            >
+                                                <li className="tooltips">AWS</li>
+                                            </OverlayTrigger>
+                                            <li>Terraform</li>
+                                            <li>Bash</li>
+                                            <li>Python scripting</li>
+                                            <li>GitLab CI/CD</li>
+                                            <li>GitHub Actions</li>
                                         </ul>
                                     </Card.Body>
                                 </Card>
