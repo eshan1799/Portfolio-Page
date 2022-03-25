@@ -62,6 +62,40 @@ export default function CardCarousel() {
           </section>
         </div>
 
+        {/* Notion Dictionary API */}
+        <div id="blue" className="projectBlocks">
+          <section className="projects">
+            <img className="projectImage" src="./assets/img/Projects/NotionDictionary.png"></img>
+            <div className="projectInfo">
+              <h3 className="projectTitle">
+                Notion Dictionary
+              </h3>
+              <p className="projectDescription">
+                Fetch definitions + synonyms of words and post them to a Notion vocabulary database.
+              </p>
+              <ul>
+                <li className="projectPointers">
+                  <Arrow />
+                  <span className="bulletPointArrow">
+                    Uses Notion's API and SDK
+                  </span>
+                </li>
+                <li className="projectPointers">
+                  <Arrow />
+                  <span className="bulletPointArrow">
+                    Retrieves dictionary data from an open-source dictionary API
+                  </span>
+                </li>
+              </ul>
+              <div className="projectButtons">
+                <a href="https://github.com/eshan1799/Notion-Dictionary-API" className="buttons" target="_blank">
+                  Github
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+
         {/* Trivia Boss */}
         <div id="pink" className="projectBlocks">
           <section className="projects">
