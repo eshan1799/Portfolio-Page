@@ -12,7 +12,7 @@ class Projects extends React.Component {
                         id="projects"
                         className="fullPageFlex"
                         >
-                            <h2>Projects</h2>
+                            <h2>Personal Projects</h2>
                             <CardCarousel />
                         </section>
                     </Transition>

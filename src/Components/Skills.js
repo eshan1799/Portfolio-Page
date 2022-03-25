@@ -36,7 +36,7 @@ class Skills extends React.Component {
                                             <ul className="centreFlexColumn">
                                                 <li>HTML</li>
                                                 <li>CSS</li>
-                                                <li>JavaScript (ES5/6)</li>
+                                                <li>JavaScript</li>
                                                 <li>React.js</li>
                                                 <li>Redux</li>
                                             </ul>
