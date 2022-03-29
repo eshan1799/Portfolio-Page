@@ -77,7 +77,7 @@ export default function CardCarousel() {
                 <li className="projectPointers">
                   <Arrow />
                   <span className="bulletPointArrow">
-                    Uses Notion's API and SDK
+                    Uses Notion's new API and SDK
                   </span>
                 </li>
                 <li className="projectPointers">
