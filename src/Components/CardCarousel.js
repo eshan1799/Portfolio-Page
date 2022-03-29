@@ -63,7 +63,7 @@ export default function CardCarousel() {
         </div>
 
         {/* Notion Dictionary API */}
-        <div id="blue" className="projectBlocks">
+        <div id="grey" className="projectBlocks">
           <section className="projects">
             <img className="projectImage" src="./assets/img/Projects/NotionDictionary.png"></img>
             <div className="projectInfo">

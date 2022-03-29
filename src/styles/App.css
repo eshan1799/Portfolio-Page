@@ -79,6 +79,8 @@
   margin-top: -80px;
 }
 
+#grey { background-color: #A9A9A9; }
+
 .diamondsNavLinks {
   color: var(--grey);
   transition: color .2s ease;
