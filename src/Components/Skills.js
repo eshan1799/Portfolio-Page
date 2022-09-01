@@ -58,10 +58,9 @@ class Skills extends React.Component {
                                             >
                                                 <li className="tooltips">JavaScript</li>
                                             </OverlayTrigger>
+                                                <li>Node.js</li>
                                                 <li>React.js</li>
-                                                <li>Redux</li>
-                                                <li>HTML</li>
-                                                <li>CSS</li>
+                                                <li>HTML / CSS</li>
                                             </ul>
                                     </Card.Body>
                                 </Card>
@@ -88,9 +87,9 @@ class Skills extends React.Component {
                                                         <br />
                                                         RDS
                                                         <br />
-                                                        EBS
-                                                        <br />
                                                         IAM
+                                                        <br />
+                                                        etc
                                                     </Tooltip> 
                                                 }
                                             >
@@ -100,7 +99,6 @@ class Skills extends React.Component {
                                             <li>Bash</li>
                                             <li>Python scripting</li>
                                             <li>GitLab CI/CD</li>
-                                            <li>GitHub Actions</li>
                                         </ul>
                                     </Card.Body>
                                 </Card>
@@ -117,36 +115,10 @@ class Skills extends React.Component {
                                             Other
                                         </Card.Title>
                                         <ul className="centreFlexColumn">
-                                            <OverlayTrigger
-                                                placement="left"
-                                                overlay={
-                                                    <Tooltip>
-                                                        PostgreSQL
-                                                        <br />
-                                                        MongoDB
-                                                    </Tooltip> 
-                                                }
-                                            >
-                                                <li className="tooltips">SQL</li>
-                                            </OverlayTrigger>
-                                            <OverlayTrigger
-                                                placement="right"
-                                                overlay={
-                                                    <Tooltip>
-                                                        Mocha
-                                                        <br />
-                                                        Chai
-                                                        <br />
-                                                        Jest
-                                                    </Tooltip> 
-                                                }
-                                            >
-                                                <li className="tooltips">TDD</li>
-                                            </OverlayTrigger>
                                             <li>Git</li>
-                                            <li>Node.js</li>
-                                            <li>Visual Basic.NET</li>
+                                            <li>Nexus Repository</li>
                                             <li>Microsoft Office</li>
+                                            <li>Stata</li>
                                         </ul>                                    
                                     </Card.Body>
                                 </Card>
