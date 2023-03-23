@@ -232,6 +232,10 @@
   transition: all .15s ease-in;
 }
 
+a {
+  text-decoration: none;
+}
+
 .buttons:hover {
   background-color: var(--grey);
   text-decoration: none;
