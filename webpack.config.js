@@ -1,5 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 
 module.exports = {
   plugins: [
@@ -34,7 +36,20 @@ module.exports = {
             ]
           }
         }]
-      }
+      },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
     ]
-  }
+  },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(), // update changed modules without page reload
+    new HtmlWebpackPlugin({
+      template: "public/index.html",
+      filename: "index.html",
+      inject: "body",
+    }),
+    new FaviconsWebpackPlugin("./src/assets/img/favicon.png")
+  ],
 }
