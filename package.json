@@ -1,22 +1,14 @@
 {
-  "name": "mugisha_react_boilerplate",
-  "version": "1.0.1",
-  "description": "A front-end React application with a test suite in Enzyme and Jest",
+  "name": "portfolio-page",
+  "version": "1.0.0",
+  "description": "A webpage providing further information about me and showcasing my work.",
   "main": "index.js",
-  "homepage": "https://fervent-darwin-6d55c8.netlify.app/",
+  "homepage": "https://eshanchatwal.co.uk",
   "scripts": {
     "start": "webpack-dev-server --mode-development",
-    "build": "webpack -p",
-    "test": "jest --watch --setupFiles ./src/test/setupTests.js",
-    "coverage": "jest --setupFiles ./src/test/setupTests.js --coverage --watchAll=false"
-  },
-  "jest": {
-    "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
-    }
-  },
-  "author": "MugishaU",
+    "build": "webpack -p"
+    },
+  "author": "eshan1799",
   "license": "ISC",
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.10.4",
