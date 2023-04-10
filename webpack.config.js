@@ -5,7 +5,13 @@ const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 
 module.exports = {
   plugins: [
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
+    new HtmlWebpackPlugin({
+      template: "public/index.html",
+      filename: "index.html",
+      inject: "body",
+    }),
+    new FaviconsWebpackPlugin("./src/assets/img/favicon.png")
   ],
   entry: path.resolve(__dirname, 'src', 'index.js'),
   output: {
@@ -14,7 +20,7 @@ module.exports = {
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, 'public'),
+      directory: path.join(__dirname, 'src/assets/img/'),
     },
     compress: true,
     port: 9000,
@@ -43,13 +49,4 @@ module.exports = {
       },
     ]
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(), // update changed modules without page reload
-    new HtmlWebpackPlugin({
-      template: "public/index.html",
-      filename: "index.html",
-      inject: "body",
-    }),
-    new FaviconsWebpackPlugin("./src/assets/img/favicon.png")
-  ],
 }
