@@ -7,7 +7,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
-    },
+  },
   "author": "eshan1799",
   "license": "ISC",
   "devDependencies": {
@@ -17,12 +17,13 @@
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.2",
     "svg-url-loader": "^8.0.0",
     "webpack": "^5.76.3",
     "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.13.1"
+    "webpack-dev-server": "^4.13.2"
   },
   "dependencies": {
     "@babel/core": "^7.21.3",
