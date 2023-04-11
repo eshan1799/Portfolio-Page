@@ -14,11 +14,20 @@ class About extends React.Component {
                             <h2 id="aboutHeader">
                                 About
                             </h2>
-                            <p className="centreP">
-                            I am an Associate DevOps/Platform engineer at Capgemini and have always possessed a growing zeal for IT and technology. I was first introduced to programming in 2013 - after deciding to found my own tech review site and complementary Android application, and have since continued to broaden my knowledge of the highly dynamic sector.
+                            {/* <p className="centreP">
+                                I am a Cloud Engineer at PwC, and technology enthusiast who enjoys designing & building solutions to complex technical problems. I have considerable experience working on large-scale cloud transformation projects built on AWS, and can comfortably build rapport with fellow colleagues and clients.
                             </p>
-                            <p id="paraSpace" className="centreP">
-                                This passion led me to enrol in a software engineering bootcamp, shortly after graduating in Economics from City, University of London. Soon after that, I worked as a junior full-stack engineer and now currently as a DevOps engineer. I thoroughly enjoy learning to use new software and programming languages, and currently have certifications in AWS (Certified AWS Developer - Associate) and Terraform (HashiCorp Certified: Terraform Associate).
+                            <p className="centreP paraSpace">
+                                In addition to working extensively on cloud and DevOps technologies, I also have experience in full-stack development and am comfortable with multiple programming languages and frameworks.
+                            </p> */}
+                            <p className="centreP">
+                                I am a Cloud Engineer at PwC, and technology enthusiast who enjoys designing & building solutions to complex technical problems. I have considerable experience working on large-scale cloud transformation projects built on AWS, and can comfortably build rapport with fellow colleagues and clients.
+                                In addition to working extensively on cloud and DevOps technologies, I also have experience in full-stack development and am comfortable with multiple programming languages and frameworks.
+                            </p>
+                            <p className="centreP paraSpace">
+                                <b>
+                                    Certifications: AWS DevOps Professional, AWS Developer Associate, AWS Cloud Practitioner, HashiCorp Terraform Associate, MS Azure Fundamentals
+                                </b>
                             </p>
                         </section>
                     </Transition>
