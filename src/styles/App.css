@@ -253,7 +253,10 @@ a {
   margin-right: 0;
 }
 
-ul { list-style: none; }
+ul {
+  list-style: none;
+  padding-left: 0;
+}
 
 li { padding: 4px 0px; }
 
