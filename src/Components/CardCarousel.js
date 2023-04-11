@@ -57,7 +57,7 @@ export default function CardCarousel() {
                 </li>
               </ul>
               <div className="projectButtons">
-                <a href="hhttps://gitlab.com/vocab-app" className="buttons" target="_blank">
+                <a href="https://gitlab.com/vocab-app" className="buttons" target="_blank">
                   GitLab
                 </a>
               </div>
