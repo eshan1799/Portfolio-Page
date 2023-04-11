@@ -15,7 +15,7 @@ class Landing extends React.Component {
                         Eshan Chatwal
                     </h1>
                     <p id="role">
-                        Associate DevOps Engineer
+                        Cloud Engineer
                     </p>
                 </div>
             </section>
