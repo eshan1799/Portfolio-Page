@@ -28,7 +28,7 @@ export default function CardCarousel() {
                 Serverless Vocab App
               </h3>
               <p className="projectDescription">
-                A serverless webapp that interacts with a Notion database, and leverages that data to generate wallpaper images.
+                A serverless webapp that generates phone wallpaper images based on vocabulary data
               </p>
               <ul>
                 <li className="projectPointers">
