@@ -35,7 +35,7 @@ class Skills extends React.Component {
                                         </Card.Title>
                                             <ul className="centreFlexColumn">
                                             <OverlayTrigger
-                                                placement="right"
+                                                placement="left"
                                                 overlay={
                                                     <Tooltip>
                                                         Django
@@ -47,7 +47,7 @@ class Skills extends React.Component {
                                                 <li className="tooltips">Python</li>
                                             </OverlayTrigger>
                                             <OverlayTrigger
-                                                placement="bottom"
+                                                placement="left"
                                                 overlay={
                                                     <Tooltip className="tooltip">
                                                         HTTP
@@ -76,7 +76,7 @@ class Skills extends React.Component {
                                         </Card.Title>
                                         <ul className="centreFlexColumn">
                                         <OverlayTrigger
-                                                placement="right"
+                                                placement="bottom"
                                                 overlay={
                                                     <Tooltip className="tooltip">
                                                         EC2
@@ -89,16 +89,27 @@ class Skills extends React.Component {
                                                         <br />
                                                         IAM
                                                         <br />
-                                                        etc
+                                                        etc...
                                                     </Tooltip> 
                                                 }
                                             >
                                                 <li className="tooltips">AWS</li>
                                             </OverlayTrigger>
-                                            <li>Terraform</li>
-                                            <li>Bash</li>
-                                            <li>Python scripting</li>
+                                            <OverlayTrigger
+                                                placement="bottom"
+                                                overlay={
+                                                    <Tooltip className="tooltip">
+                                                        Modules
+                                                        <br />
+                                                        Terragrunt
+                                                    </Tooltip> 
+                                                }
+                                            >
+                                                <li className="tooltips">Terraform</li>
+                                            </OverlayTrigger>
+                                            <li>Python (scripting)</li>
                                             <li>GitLab CI/CD</li>
+                                            <li>GitHub Actions</li>
                                         </ul>
                                     </Card.Body>
                                 </Card>
@@ -118,6 +129,7 @@ class Skills extends React.Component {
                                             <li>Git</li>
                                             <li>Nexus Repository</li>
                                             <li>Microsoft Office</li>
+                                            <li>Google Workspace</li>
                                             <li>Stata</li>
                                         </ul>                                    
                                     </Card.Body>
