@@ -14,12 +14,6 @@ class About extends React.Component {
                             <h2 id="aboutHeader">
                                 About
                             </h2>
-                            {/* <p className="centreP">
-                                I am a Cloud Engineer at PwC, and technology enthusiast who enjoys designing & building solutions to complex technical problems. I have considerable experience working on large-scale cloud transformation projects built on AWS, and can comfortably build rapport with fellow colleagues and clients.
-                            </p>
-                            <p className="centreP paraSpace">
-                                In addition to working extensively on cloud and DevOps technologies, I also have experience in full-stack development and am comfortable with multiple programming languages and frameworks.
-                            </p> */}
                             <p className="centreP">
                                 I am a Cloud Engineer at PwC, and technology enthusiast who enjoys designing & building solutions to complex technical problems. I have considerable experience working on large-scale cloud transformation projects built on AWS, and can comfortably build rapport with fellow colleagues and clients.
                                 In addition to working extensively on cloud and DevOps technologies, I also have experience in full-stack development and am comfortable with multiple programming languages and frameworks.
