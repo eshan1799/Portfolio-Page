@@ -34,6 +34,12 @@ export default function CardCarousel() {
                 <li className="projectPointers">
                   <Arrow />
                   <span className="bulletPointArrow">
+                    Populates images with data received from an open-source dictionary API
+                  </span>
+                </li>
+                <li className="projectPointers">
+                  <Arrow />
+                  <span className="bulletPointArrow">
                     Built using Lambda, API Gateway, SQS, S3
                   </span>
                 </li>
@@ -47,12 +53,6 @@ export default function CardCarousel() {
                   <Arrow />
                   <span className="bulletPointArrow">
                     Infrastructure is deployed using Terraform
-                  </span>
-                </li>
-                <li className="projectPointers">
-                  <Arrow />
-                  <span className="bulletPointArrow">
-                    Populates images with data received from an open-source dictionary API
                   </span>
                 </li>
               </ul>
