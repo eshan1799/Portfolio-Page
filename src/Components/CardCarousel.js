@@ -19,6 +19,52 @@ export default function CardCarousel() {
       <div className="centreProjects">
       <Slider {...settings}>
         
+        {/* Serverless Vocab App */}
+        <div id="grey" className="projectBlocks">
+          <section className="projects">
+            <img className="projectImage" src="./assets/img/Projects/NotionDictionary.png"></img>
+            <div className="projectInfo">
+              <h3 className="projectTitle">
+                Serverless Vocab App
+              </h3>
+              <p className="projectDescription">
+                A serverless webapp that generates phone wallpaper images based on vocabulary data
+              </p>
+              <ul>
+                <li className="projectPointers">
+                  <Arrow />
+                  <span className="bulletPointArrow">
+                    Populates images with data received from an open-source dictionary API
+                  </span>
+                </li>
+                <li className="projectPointers">
+                  <Arrow />
+                  <span className="bulletPointArrow">
+                    Built using Lambda, API Gateway, SQS, S3
+                  </span>
+                </li>
+                <li className="projectPointers">
+                  <Arrow />
+                  <span className="bulletPointArrow">
+                    Uses CI/CD pipelines to test, plan and deploy
+                  </span>
+                </li>
+                <li className="projectPointers">
+                  <Arrow />
+                  <span className="bulletPointArrow">
+                    Infrastructure is deployed using Terraform
+                  </span>
+                </li>
+              </ul>
+              <div className="projectButtons">
+                <a href="https://gitlab.com/vocab-app" className="buttons" target="_blank">
+                  GitLab
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+
         {/* 3X */}
         <div id="blue" className="projectBlocks">
           <section className="projects">
@@ -55,40 +101,6 @@ export default function CardCarousel() {
                   Visit Project
                 </a>
                 <a href="https://github.com/eshan1799/lap4project-3x" className="buttons" target="_blank">
-                  Github
-                </a>
-              </div>
-            </div>
-          </section>
-        </div>
-
-        {/* Notion Dictionary API */}
-        <div id="grey" className="projectBlocks">
-          <section className="projects">
-            <img className="projectImage" src="./assets/img/Projects/NotionDictionary.png"></img>
-            <div className="projectInfo">
-              <h3 className="projectTitle">
-                Notion Dictionary
-              </h3>
-              <p className="projectDescription">
-                Fetch definitions + synonyms of words and post them to a Notion vocabulary database.
-              </p>
-              <ul>
-                <li className="projectPointers">
-                  <Arrow />
-                  <span className="bulletPointArrow">
-                    Uses Notion's new API and SDK
-                  </span>
-                </li>
-                <li className="projectPointers">
-                  <Arrow />
-                  <span className="bulletPointArrow">
-                    Retrieves dictionary data from an open-source dictionary API
-                  </span>
-                </li>
-              </ul>
-              <div className="projectButtons">
-                <a href="https://github.com/eshan1799/Notion-Dictionary-API" className="buttons" target="_blank">
                   Github
                 </a>
               </div>
