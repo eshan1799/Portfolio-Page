@@ -20,7 +20,7 @@ class About extends React.Component {
                             </p>
                             <p className="centreP paraSpace">
                                 <b>
-                                    Certifications: AWS DevOps Professional, AWS Developer Associate, AWS Cloud Practitioner, HashiCorp Terraform Associate, MS Azure Fundamentals
+                                    Certifications: AWS DevOps Professional, AWS Solutions Architect Associate, AWS Developer Associate, AWS Cloud Practitioner, HashiCorp Terraform Associate, MS Azure Fundamentals
                                 </b>
                             </p>
                         </section>
