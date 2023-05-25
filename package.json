@@ -6,7 +6,8 @@
   "homepage": "https://eshanchatwal.co.uk",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "aws s3 sync dist/ s3://eshanchatwal.co.uk"
   },
   "author": "eshan1799",
   "license": "ISC",
