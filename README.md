@@ -1,4 +1,4 @@
-# Eshan Chatwal Portfolio
+# Eshan Chatwal Portfolio Page
 
 ## Description
 A webpage providing further information about me and showcasing my work.
